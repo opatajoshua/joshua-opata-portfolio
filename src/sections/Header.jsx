@@ -3,8 +3,8 @@ import Section from "../components/Section";
 
 export default function Header() {
     return (
-        <div className="home-section">
-            <Section className="home-section">
+        <div className="home-bg">
+            <Section className="home-bg">
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full">
                     {/* left column */}
                     <div className="flex flex-col">

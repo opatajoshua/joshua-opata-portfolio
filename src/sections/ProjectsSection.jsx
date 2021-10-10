@@ -2,18 +2,24 @@ import { ExternalLinkIcon, ZoomInIcon } from "@heroicons/react/outline";
 import LightCard from "../components/LightCard";
 import Section from "../components/Section";
 import projects from '../data/projects.json';
+import { useState } from 'react'
+import ProjectGallery from "../components/ProjectGallery";
 
 export default function ProjectsSection(props) {
+    let [isOpen, setIsOpen] = useState(true)
+    let [openedProject, setOpenedProject] = useState(null)
+
     return (
     <Section
         id="projects"
         title="PORTFOLIO" 
         heading="My Latest Projects" 
         description="These are the some of my latest projects. some links are not included due to NDA but you can contact me for more.">
+        <ProjectGallery show={openedProject!=null} project={openedProject} onClose={()=>setOpenedProject(null)}/>
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 mt-10">
             {projects.map((proj, i) => 
                 <LightCard key={i} className="flex flex-col m-3 overflow-hidden rounded-2xl">
-                    <div className="group relative h-40 overflow-hidden cursor-pointer">
+                    <div className="group relative h-40 overflow-hidden cursor-pointer" onClick={()=> setOpenedProject(proj)}>
                         <div className="transition duration-500 ease-in-out bg-gray-800 bg-opacity-40 opacity-0 group-hover:opacity-100 absolute left-0 top-0 z-10 h-full w-full flex items-center justify-center">
                             <ZoomInIcon className="h-8 w-8 text-green-100"/>
                         </div>
