@@ -3,7 +3,7 @@
         "name":"My Portfolio",
         "description":"You are already here 😊. I designed the mockup of this site with sketch and the rest is fun coding with react and tailwindcss",
         "skills":["Sketch","ReactJS","Tailwindcss"],
-        "image":"img/projects/my-portfolio/home.png",
+        "image":"img/projects/my-portfolio/thumbnail.png",
         "images":[
             {
                 "original": "img/projects/my-portfolio/home.png",
@@ -22,7 +22,7 @@
         "name":"Pentecost Guide",
         "description":"Currently <b>8,0000+</b> downloads on Google Play Store, Pentecost guide has been helping in reading through the Pentecost home cells and bible study for each year since 2017.<br/> I designed and built the mobile app and an admin web app to manage it. I used android studio with java to develop the mobile app. I initially built an admin app to it in ReactJs and later rebuilt it with VueJs.<br> I used firebase realtime database,cloud firestore and cloud messenger to handle my data and app notifications. i built an offline feature using realm db that helps readers on the app to keep the content offline permanently.",
         "skills":["Native Android","Java","Android Studio", "VueJs"],
-        "image":"img/projects/pentecost-guide/pentecost-guide-screen1.png",
+        "image":"img/projects/pentecost-guide/thumbnail.png",
         "images":[
             {
                 "original": "img/projects/pentecost-guide/pentecost-guide-screen1.png",
