@@ -1,5 +1,5 @@
 import Section from "../components/Section";
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt, FaStackOverflow, FaTwitter } from 'react-icons/fa';
 import { ExternalLinkIcon } from "@heroicons/react/outline";
 
 export default function ContactSection(props) {
@@ -7,7 +7,7 @@ export default function ContactSection(props) {
     <Section
         id="contact"
         title="CONTACT" 
-        heading="REACH ME ON" 
+        heading="CHECK ME OUT" 
         description="">
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 mt-10 w-full">
             <a href="mailto:opatajoshua@gmail.com" className="group">
@@ -30,13 +30,16 @@ export default function ContactSection(props) {
                     <ExternalLinkIcon className="ml-2 w-5 h-5 text-green-400 opacity-70 group-hover:opacity-100"/>
                 </span>
             </a>
-            <span className="group">
+            <a href='https://stackoverflow.com/users/14362614/joshua-opata' target='_blank' rel="noreferrer" className="group">
                 <div className="flex items-center text-gray-400">
-                    <FaMapMarkerAlt className="mr-1"/>
-                    LOCATION
+                    <FaStackOverflow className="mr-1"/>
+                    STACK OVERFLOW
                 </div>
-                Accra - Ghana
-            </span>
+                <span className="flex">
+                    joshua-opata
+                    <ExternalLinkIcon className="ml-2 w-5 h-5 text-green-400 opacity-70 group-hover:opacity-100"/>
+                </span>
+            </a>
             <a href="https://github.com/opatajoshua" target='_blank' rel="noreferrer" className="group">
                 <div className="flex items-center text-gray-400">
                     <FaGithub className="mr-1"/>

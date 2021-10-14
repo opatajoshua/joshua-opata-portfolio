@@ -67,7 +67,7 @@ export default function ProjectGallery(props) {
                                 </p>
                                 <div className="mt-3 flex">
                                     {props.project && props.project.links? 
-                                        props.project.links.map(l=>(<a href={l.link} target="_blank" rel="noreferrer" className="text-green-400 mr-4 flex items-center">{l.title} <ExternalLinkIcon className="ml-1 h-4 w-4"/></a>))
+                                        props.project.links.map(l=>(<a href={l.link} target="_blank" rel="noopener noreferrer" className="text-green-400 mr-4 flex items-center">{l.title} <ExternalLinkIcon className="ml-1 h-4 w-4"/></a>))
                                     :''}
                                     {/* <a href="#" className="text-green-400 mr-3">link 1</a>
                                     <a href="#" className="text-green-400">link 2</a> */}

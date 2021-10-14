@@ -6,7 +6,6 @@ import { useState } from 'react'
 import ProjectGallery from "../components/ProjectGallery";
 
 export default function ProjectsSection(props) {
-    let [isOpen, setIsOpen] = useState(true)
     let [openedProject, setOpenedProject] = useState(null)
 
     return (
@@ -35,7 +34,7 @@ export default function ProjectsSection(props) {
                         </p>
                         <div className="flex mt-4">
                             {proj.links.map((lnk, k) => 
-                                <a href={lnk.link} key={k} disabled={lnk.disabled} className="flex-1 flex items-center justify-center text-center bg-green-600 hover:bg-green-700 text-gray-100 font-semibold rounded py-2">
+                                <a href={lnk.link} key={k} target='_blank' rel="noopener noreferrer" disabled={lnk.disabled} className="flex-1 flex items-center justify-center text-center bg-green-600 hover:bg-green-700 text-gray-100 font-semibold rounded py-2">
                                     <span className="mr-3">{lnk.title}</span>
                                     {lnk.disabled? (<span></span>): (<ExternalLinkIcon className="h-5 w-5"/>)}
                                 </a>

@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaListAlt, FaMapMarkerAlt } from "react-icons/fa";
 import Section from "../components/Section";
 
 export default function Header() {
@@ -17,9 +17,13 @@ export default function Header() {
                             </div>
             
                         </span>
-                        <div className="mt-9">
-                            <button className="border border-green-400 hover:bg-green-400 hover:text-gray-800 px-6 py-2 rounded-3xl text-sm mr-3 font-bold">My Portfolio</button>
-                            <button className="bg-gray- bg-gray-500 hover:bg-gray-800 hover:text-green-400 px-6 py-2 rounded-3xl text-gray- text-gray-900 font-bold text-sm">Download CV</button>
+                        <div className="mt-9 flex">
+                            <a href="#projects" className="border border-green-400 hover:bg-green-400 hover:text-gray-800 px-6 py-2 rounded-3xl text-sm mr-3 font-bold">My Portfolio</a>
+                            <a href="https://resume.io/r/Esm8ejWhi" target="_blank" rel="noreferrer" 
+                                className="flex items-center justify-center bg-gray-700 text-green-400 hover:bg-gray-800 hover:text-green-400 px-6 py-2 rounded-3xl font-bold text-sm">
+                                My CV <FaListAlt className="ml-2"/>
+                            </a>
+                            {/* <div className="flex-1">ddd</div> */}
                         </div>
                         <div className="flex flex-row items-center mt-8">
                             <p className="text-4xl mr-3">5+</p>
