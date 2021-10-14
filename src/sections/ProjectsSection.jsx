@@ -22,11 +22,11 @@ export default function ProjectsSection(props) {
                         <div className="transition duration-500 ease-in-out bg-gray-800 bg-opacity-40 opacity-0 group-hover:opacity-100 absolute left-0 top-0 z-10 h-full w-full flex items-center justify-center">
                             <ZoomInIcon className="h-8 w-8 text-green-100"/>
                         </div>
-                        <img className="w-full h-auto object-center absolute left-0 top-0 z-0" src={`img/projects/${proj.image}`} alt={proj.image}/>
+                        <img className="w-full h-auto object-center absolute left-0 top-0 z-0" src={proj.image} alt={proj.image}/>
                     </div>
                     <div className="px-5 pb-5">
-                        <p className="text-lg font-bold">{proj.name}</p>
-                        <p className="text-sm truncate cursor-pointer hover:text-green-400">{proj.description}</p>
+                        <p className="text-lg mt-2 font-bold">{proj.name}</p>
+                        <p className="text-smmt-2 cursor-pointer hover:text-green-400 line-clamp-1" dangerouslySetInnerHTML={{__html:proj.description}}></p>
                         <p className="flex flex-wrap items-center" style={{minHeight: '70px'}}>
                             {proj.skills.map((sk, j) => 
                                 <span key={j} className="text-xs px-3 py-1 bg-gray-700 text-green-400 rounded-2xl mt-2 mr-1">{sk}</span>
