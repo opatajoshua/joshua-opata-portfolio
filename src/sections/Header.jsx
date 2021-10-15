@@ -33,7 +33,9 @@ export default function Header() {
                             </div>
                         </div>
                     </div>
-            
+                    <div className="flex justify-items-end">
+                        {/* <img src="img/me.png" alt="me.png" className="h-80" /> */}
+                    </div>
                 </div>
             </Section>
         </div>

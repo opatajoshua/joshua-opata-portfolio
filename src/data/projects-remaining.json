@@ -1,0 +1,77 @@
+[
+    
+    {
+        "name":"Rotary Eyesight",
+        "description":"The is a system donated by Rotary International to Ghana Health Service. I developed the web admin in vuejs, a backend in feathersjs (node/expresjs framework) and a mobile app in flutter. The web app is a web console to manage the administrative operations of the system. the system is a health surveillance system to collect data on people with eyesight issues and refer them to hospitals through the system. the mobile app is for the data collections and diagnosis.",
+        "image":"img/projects/eban-web/attendance.png",
+        "skills":["Flutter", "VueJs", "FeathersJS", "Typescript", "HTML, JS, CSS"],
+        "images":[
+            {
+                "original": "img/projects/eban-web/attendance.png",
+                "thumbnail": "img/projects/eban-web/attendance.png"
+            }
+        ],
+        "links":[
+        ]
+    },
+    {
+        "name":"U4Africa",
+        "description":"A multi-national payment system developed to target African coutries.",
+        "skills":["Ionic","HTML", "Javascript", "CSS"],
+        "image":"img/projects/eban-web/attendance.png",
+        "images":[
+            {
+                "original": "img/projects/eban-web/attendance.png",
+                "thumbnail": "img/projects/eban-web/attendance.png"
+            }
+        ],
+        "links":[
+        ]
+    },
+    {
+        "name":"JShop POS",
+        "description":"This is a POS application that runs on windows. I built this desktop POS application using c# DotNet winforms. it connects to a mysql database and run on the local machine. The app has so far been deployed to 26 shops in Ghana. Its has features like, user management, sales, inventory, customer management and reporting.",
+        "image":"img/projects/eban-web/attendance.png",
+        "skills":["C#",".Net","MySql"],
+        "images":[
+            {
+                "original": "img/projects/eban-web/attendance.png",
+                "thumbnail": "img/projects/eban-web/attendance.png"
+            }
+        ],
+        "links":[
+        ]
+    },
+    {
+        "name":"Windows Timer",
+        "description":"Windows Timer is an application that performs system action like alert, shutdown, hibernate, lock, sleep, and restart after a count down or a scheduled time. it has 4 main sections. (1) section for counting up to a particular time. (2) section for counting down to a particular time. (3) section for scheduling an action. (4) section for the application settings. I built the application using c# .net winforms.",
+        "image":"img/projects/eban-web/attendance.png",
+        "skills":["C#",".Net"],
+        "images":[
+            {
+                "original": "img/projects/eban-web/attendance.png",
+                "thumbnail": "img/projects/eban-web/attendance.png"
+            }
+        ],
+        "links":[
+            {
+                "title":"REPO",
+                "link":"https://github.com/opatajoshua/Windows-Shutdown-Timer"
+            }
+        ]
+    },
+    {
+        "name":"Wyre PayLink",
+        "description":"A mobile front-end application to a payment system in Ghana. I was part of the ui design theme and also the mobile developer. I built the mobile app with ionic. The app generates links to users which they can share to other to make payments to. It fetches user details, transaction details and initiates new transactions.",
+        "skills":["Ionic","HTML", "Javascript", "CSS"],
+        "image":"img/projects/eban-web/attendance.png",
+        "images":[
+            {
+                "original": "img/projects/eban-web/attendance.png",
+                "thumbnail": "img/projects/eban-web/attendance.png"
+            }
+        ],
+        "links":[
+        ]
+    }
+]

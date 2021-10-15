@@ -3,11 +3,11 @@
         "name":"My Portfolio",
         "description":"You are already here 😊. I designed the mockup of this site with sketch and the rest is fun coding with react and tailwindcss",
         "skills":["Sketch","ReactJS","Tailwindcss"],
-        "image":"img/projects/my-portfolio/thumbnail.png",
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png",
         "images":[
             {
-                "original": "img/projects/my-portfolio/home.png",
-                "thumbnail": "img/projects/my-portfolio/home.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png"
             }
         ],
         "links":[
@@ -20,17 +20,17 @@
     },
     {
         "name":"Pentecost Guide",
-        "description":"Currently <b>8,0000+</b> downloads on Google Play Store, Pentecost guide has been helping in reading through the Pentecost home cells and bible study for each year since 2017.<br/> I designed and built the mobile app and an admin web app to manage it. I used android studio with java to develop the mobile app. I initially built an admin app to it in ReactJs and later rebuilt it with VueJs.<br> I used firebase realtime database,cloud firestore and cloud messenger to handle my data and app notifications. i built an offline feature using realm db that helps readers on the app to keep the content offline permanently.",
+        "description":"Currently <b>8k+</b> downloads on Google Play Store, Pentecost guide has been helping in reading through the Pentecost home cells and bible study for each year since 2017.<br/> I designed and built the mobile app and an admin web app to manage it. I used android studio with java to develop the mobile app. I initially built an admin app to it in ReactJs and later rebuilt it with VueJs.<br> I used firebase realtime database,cloud firestore and cloud messenger to handle my data and app notifications. i built an offline feature using realm db that helps readers on the app to keep the content offline permanently.",
         "skills":["Native Android","Java","Android Studio", "VueJs"],
-        "image":"img/projects/pentecost-guide/thumbnail.png",
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
         "images":[
             {
-                "original": "img/projects/pentecost-guide/pentecost-guide-screen1.png",
-                "thumbnail": "img/projects/pentecost-guide/pentecost-guide-screen1.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png"
             },
             {
-                "original": "img/projects/pentecost-guide/pentecost-guide-screen2.png",
-                "thumbnail": "img/projects/pentecost-guide/pentecost-guide-screen2.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634251886/portfolio/pentecost-guide/pentecost-guide-screen2_cw5cml.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634251886/portfolio/pentecost-guide/pentecost-guide-screen2_cw5cml.png"
             }
         ],
         "links":[
@@ -42,13 +42,21 @@
     },
     {
         "name":"Eban Register (Mobile)",
-        "description":" built a mobile app used by employees and members of enrolled organizations to: (1) scan QRCodes to take attendance. (2) manage their profile. (3) register attendance for meetings within the radius of their gps location. (4) Access their organisation's information and meetings. (5) manage their attendance history.",
-        "image":"img/projects/eban-web/attendance.png",
+        "description":"Currently <b>1.5k+</b> on Play Store and <b>6.9k</b> impressions on Apple App Store, this app is used by employees and members of enrolled organizations on Eban Register to: <br>(1) scan QR-Codes to take attendance. <br>(2) manage their profile. <br>(3) register attendance for meetings within the radius of their gps location. (4) Access their organisation's information and meetings. <br>(5) manage their attendance history.",
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png",
         "skills":["Flutter", "Dart"],
         "images":[
             {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen2_yo1ado.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen2_yo1ado.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen3_bvy8ln.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen3_bvy8ln.png"
             }
         ],
         "links":[
@@ -64,13 +72,21 @@
     },
     {
         "name":"Eban Register (Web Admin)",
-        "description":"An Electronic attendance system. 70 organizations has enrolled on the platform since it's deployment in december 2020. the system allows employees or member of organizations to take attendance with their phone by scanning a QR-Code, using their GPS or scanning an NFC tag",
-        "image":"img/projects/eban-web/attendance.png",
+        "description":"An Electronic attendance system with employee and membership management modules. 70 organizations has enrolled on the platform since it's deployment in december 2020. The system allows employees or members of organizations to take attendance with their phone by: <br> - Scanning a QR-Code<br> - Using their GPS<br> - Scanning an NFC tag",
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png",
         "skills":["VueJs", "Bootstrap","FeathersJs", "Typescript", "more.."],
         "images":[
             {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634247513/portfolio/eban-admin/eban-admin-screen-2_pcvgyu.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634247513/portfolio/eban-admin/eban-admin-screen-2_pcvgyu.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634248046/portfolio/eban-admin/eban-admin-screen-3_licoyr.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634248046/portfolio/eban-admin/eban-admin-screen-3_licoyr.png"
             }
         ],
         "links":[
@@ -82,27 +98,21 @@
     },
     {
         "name":"E-Health",
-        "description":"The Project is a hospital management system. I was in both the frontend team and backend team. I developed the core backend modules for authentication (with passport), billing, and other hospital operations. The backend is developed in php (Laravel). I was also part of the frontend team. i developed the frontend custom controls, authentication, billing and other operations that communicate with the backend using rest.",
-        "image":"img/projects/eban-web/attendance.png",
+        "description":"EHMIS, a hospital management system. I was the lead developer for both backend and frontend development. I developed the core backend modules for authentication (with passport), billing, and other hospital operations. The backend is developed in php (Laravel). I developed the frontend custom controls (in EmberJs), authentication, billing and other operations that communicate with the backend using rest.",
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png",
         "skills":["EmberJs", "PHP","Laravel", "Mysql", "HTML, JS, CSS"],
         "images":[
             {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
-            }
-        ],
-        "links":[
-        ]
-    },
-    {
-        "name":"Rotary Eyesight",
-        "description":"The is a system donated by Rotary International to Ghana Health Service. I developed the web admin in vuejs, a backend in feathersjs (node/expresjs framework) and a mobile app in flutter. The web app is a web console to manage the administrative operations of the system. the system is a health surveillance system to collect data on people with eyesight issues and refer them to hospitals through the system. the mobile app is for the data collections and diagnosis.",
-        "image":"img/projects/eban-web/attendance.png",
-        "skills":["Flutter", "VueJs", "FeathersJS", "Typescript", "HTML, JS, CSS"],
-        "images":[
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png"
+            },
             {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634250080/portfolio/ehmis/ehmis-screen-2_sd07l4.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634250080/portfolio/ehmis/ehmis-screen-2_sd07l4.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634250548/portfolio/ehmis/ehmis-screen-3_wdwnsj.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634250548/portfolio/ehmis/ehmis-screen-3_wdwnsj.png"
             }
         ],
         "links":[
@@ -111,12 +121,16 @@
     {
         "name":"SORMAS",
         "description":"Besides Germany, SORMAS is now being used in over half a dozen countries for COVID surveillance. I contribute to the development of SORMAS by developing features like barcode reading, and some other requirements. I also built custom controls for the mobile app. i used eclipse or sometimes intellij with javaee and vaadin framework to build the web application feature tasks like new sample dashboard and other features. I also made fixed bugs in the project and create pull requests.",
-        "image":"img/projects/eban-web/attendance.png",
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png",
         "skills":["Java","Android Studio","Vaadin"],
         "images":[
             {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634253712/portfolio/sormas/sormas-screen-2_pw1qjw.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634253712/portfolio/sormas/sormas-screen-2_pw1qjw.png"
             }
         ],
         "links":[
@@ -129,65 +143,6 @@
                 "link":"https://demo.sormas.org/sormas-ui/login"
             }
         ]
-    },
-    {
-        "name":"U4Africa",
-        "description":"A multi-national payment system developed to target African coutries.",
-        "skills":["Ionic","HTML", "Javascript", "CSS"],
-        "image":"img/projects/eban-web/attendance.png",
-        "images":[
-            {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
-            }
-        ],
-        "links":[
-        ]
-    },
-    {
-        "name":"JShop POS",
-        "description":"This is a POS application that runs on windows. I built this desktop POS application using c# DotNet winforms. it connects to a mysql database and run on the local machine. The app has so far been deployed to 26 shops in Ghana. Its has features like, user management, sales, inventory, customer management and reporting.",
-        "image":"img/projects/eban-web/attendance.png",
-        "skills":["C#",".Net","MySql"],
-        "images":[
-            {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
-            }
-        ],
-        "links":[
-        ]
-    },
-    {
-        "name":"Windows Timer",
-        "description":"Windows Timer is an application that performs system action like alert, shutdown, hibernate, lock, sleep, and restart after a count down or a scheduled time. it has 4 main sections. (1) section for counting up to a particular time. (2) section for counting down to a particular time. (3) section for scheduling an action. (4) section for the application settings. I built the application using c# .net winforms.",
-        "image":"img/projects/eban-web/attendance.png",
-        "skills":["C#",".Net"],
-        "images":[
-            {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
-            }
-        ],
-        "links":[
-            {
-                "title":"REPO",
-                "link":"https://github.com/opatajoshua/Windows-Shutdown-Timer"
-            }
-        ]
-    },
-    {
-        "name":"Wyre PayLink",
-        "description":"A mobile front-end application to a payment system in Ghana. I was part of the ui design theme and also the mobile developer. I built the mobile app with ionic. The app generates links to users which they can share to other to make payments to. It fetches user details, transaction details and initiates new transactions.",
-        "skills":["Ionic","HTML", "Javascript", "CSS"],
-        "image":"img/projects/eban-web/attendance.png",
-        "images":[
-            {
-                "original": "img/projects/eban-web/attendance.png",
-                "thumbnail": "img/projects/eban-web/attendance.png"
-            }
-        ],
-        "links":[
-        ]
     }
+    
 ]
