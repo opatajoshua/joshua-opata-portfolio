@@ -7,7 +7,7 @@ export default function SkillsSection(props) {
         id="skills"
         title="SKILLS" 
         heading="My Fullstack Skills" 
-        description="These are the some of skills i used to provide solutions across platforms">
+        description="These are some of my skills i use to provide fullstack solutions across platforms">
         <div className="flex flex-row mt-10 flex-wrap justify-center">
             {skills.map((sk, i) => 
                 <div key={i} className="flex flex-col items-center m-3">
