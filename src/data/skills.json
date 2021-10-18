@@ -110,5 +110,9 @@
     {
         "name":"REALM DB",
         "image":"mongodb-realm.svg"
+    },
+    {
+        "name":"ELECTRON JS",
+        "image":"electronjs-icon.svg"
     }
 ]
