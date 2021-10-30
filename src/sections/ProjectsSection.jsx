@@ -33,7 +33,7 @@ export default function ProjectsSection(props) {
                                 <span key={j} className="text-xs px-3 py-1 bg-gray-700 text-green-400 rounded-2xl mt-2 mr-1">{sk}</span>
                             )}
                         </p>
-                        <div className="flex mt-4">
+                        <div className="flex mt-4 space-children">
                             {proj.links.map((lnk, k) => 
                                 <a href={lnk.link} key={k} target='_blank' rel="noopener noreferrer" disabled={lnk.disabled} className="flex-1 flex items-center justify-center text-center bg-green-600 hover:bg-green-700 text-gray-100 font-semibold rounded py-2">
                                     <span className="mr-3">{lnk.title}</span>
