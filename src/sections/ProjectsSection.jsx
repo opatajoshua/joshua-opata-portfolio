@@ -25,7 +25,8 @@ export default function ProjectsSection(props) {
                         <img className="w-full h-auto object-center absolute left-0 top-0 z-0" src={proj.image} alt={proj.image}/>
                     </div>
                     <div className="px-5 pb-5">
-                        <p className="text-lg mt-2 font-bold">{proj.name}</p>
+                        <button onClick={()=> setOpenedProject(proj)} className="mt-2 float-right border border-green-400 hover:bg-green-400 hover:text-gray-800 text-green-400 px-2 py-1 rounded-3xl text-sm ml-1 font-bold">details</button>
+                        <p className="text-lg mt-3 font-bold">{proj.name}</p>
                         <p className="text-smmt-2 cursor-pointer hover:text-green-400 line-clamp-1" onClick={()=> setOpenedProject(proj)} dangerouslySetInnerHTML={{__html:proj.description}}></p>
                         <p className="flex flex-wrap items-center" style={{minHeight: '70px'}}>
                             {proj.skills.map((sk, j) => 
