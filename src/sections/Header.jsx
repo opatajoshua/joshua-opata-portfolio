@@ -4,7 +4,7 @@ import Section from "../components/Section";
 export default function Header() {
     return (
         <div className="home-bg">
-            <Section className="home-bg">
+            <Section className="home-bg" id="home">
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full">
                     {/* left column */}
                     <div className="flex flex-col">

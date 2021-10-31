@@ -4,12 +4,12 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Scrollspy from 'react-scrollspy'
 
 const navigation = [
-  { name: 'Home', href: '', current: true },
-  { name: 'Services', href: 'services', current: false },
-  { name: 'Skills', href: 'skills', current: false },
-  { name: 'Portfolio', href: 'projects', current: false },
-  { name: 'Blog', href: 'blogs', current: false },
-  { name: 'Contact', href: 'contact', current: false },
+  { name: 'Home', href: 'home' },
+  { name: 'Services', href: 'services' },
+  { name: 'Skills', href: 'skills' },
+  { name: 'Portfolio', href: 'projects' },
+  { name: 'Blog', href: 'blogs' },
+  { name: 'Contact', href: 'contact' },
 ]
 
 export default function NavBar() {
@@ -33,8 +33,7 @@ export default function NavBar() {
                           <a
                             key={item.name}
                             href={'#'+item.href}
-                            className='text-gray-300 hover:text-green-400 px-1 py-2 text-sm font-medium' 
-                            aria-current={item.current ? 'page' : undefined}
+                            className='text-gray-300 hover:text-green-400 px-1 py-2 text-sm font-medium'
                           >
                             {item.name}
                           </a>
