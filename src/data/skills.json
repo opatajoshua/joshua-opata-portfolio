@@ -114,5 +114,9 @@
     {
         "name":"ELECTRON JS",
         "image":"electronjs-icon.svg"
+    },
+    {
+        "name":"AWS",
+        "image":"amazon_aws-icon.svg"
     }
 ]
