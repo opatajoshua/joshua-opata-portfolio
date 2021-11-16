@@ -1,7 +1,7 @@
 [
     {
         "name":"Pick A Fist",
-        "description":"A simple fun game i developed with ember.js. Guess which fist is holding the key, and it scores you vs the computer.",
+        "description":"A simple fun game i developed with ember.js in less than a day to refresh my ember.js skills since i have been working with other frameworks for a while now. You guess which fist is holding the key, and it scores you vs the computer.",
         "skills":["Ember.js","Tailwindcss"],
         "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png",
         "images":[
