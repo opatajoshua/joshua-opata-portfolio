@@ -8,9 +8,9 @@ export default function Header() {
                 <div className="grid grid-cols-1 md:grid-cols-2 w-full">
                     {/* left column */}
                     <div className="flex flex-col">
-                        <div><p className="inline rounded bg-green-400 text-black px-2 py-1 max-w-full">Fullstack Developer</p></div>
+                        <div><p className="inline rounded bg-green-400 text-black px-2 py-1 max-w-full">Software Developer</p></div>
                         <p className="text-4xl font-bold mt-5">I am Joshua Opata</p>
-                        <p className="mt-4">I am a passionate fullstack developer with 5+ years of experience</p>
+                        <p className="mt-4">I am a passionate software developer with 5+ years of experience</p>
                         <span className="group">
                             <div className="flex items-center text-gray-400 mt-2">
                             <FaMapMarkerAlt className="mr-1"/> Accra - Ghana | Remote
