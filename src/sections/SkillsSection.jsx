@@ -4,7 +4,7 @@ import skills from '../data/skills.json';
 
 export default function SkillsSection(props) {
     function tabClass(selected) {
-        return (selected ? 'bg-gray-300 text-green-700 border-b-2 border-green-400' : 'bg-gray-700 text-gray-100')+' px-5 py-2 font-semibold'
+        return (selected ? 'bg-gray-300 text-green-700 border-b-2 border-green-400' : 'bg-gray-700 text-gray-100')+' px-2 md:px-5 py-2 font-semibold text-sm md:text-lg'
     }
     return (
     <Section
@@ -12,7 +12,7 @@ export default function SkillsSection(props) {
         title="SKILLS" 
         heading="The Stack i Work With" 
         description="">
-        <div className="mt-0">
+        <div className="mt-0 max-w-full">
             <Tab.Group>
                 <Tab.List className="flex flex-row justify-center">
                     <Tab className={({ selected }) => tabClass(selected)+' rounded-l-lg' }>
