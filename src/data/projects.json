@@ -20,8 +20,12 @@
         ],
         "links":[
             {
-                "title":"LINK",
+                "title":"DEMO",
                 "link":"https://multi-matrix-tictactoe.netlify.app/"
+            },
+            {
+                "title":"GITHUB",
+                "link":"https://github.com/opatajoshua/react-tic-tac-toe"
             }
         ]
     },
@@ -44,6 +48,10 @@
             {
                 "title":"LINK",
                 "link":"https://hand-pick-game.netlify.app/"
+            },
+            {
+                "title":"GITHUB",
+                "link":"https://github.com/opatajoshua/hand-pick-game"
             }
         ]
     },
@@ -68,7 +76,7 @@
     },
     {
         "name":"Pentecost Guide",
-        "description":"Currently <b>8k+</b> downloads on Google Play Store, Pentecost guide has been helping in reading through the Pentecost home cells and bible study for each year since 2017.<br/> I designed and built the mobile app and an admin web app to manage it. I used android studio with java to develop the mobile app. I initially built an admin app to it in ReactJs and later rebuilt it with VueJs.<br> I used firebase realtime database,cloud firestore and cloud messenger to handle my data and app notifications. i built an offline feature using realm db that helps readers on the app to keep the content offline permanently.",
+        "description":"Currently <b>10k+</b> downloads on Google Play Store, Pentecost guide has been helping in reading through the Pentecost home cells and bible study for each year since 2017.<br/> I designed and built the mobile app and an admin web app to manage it. I used android studio with java to develop the mobile app. I initially built an admin app to it in ReactJs and later rebuilt it with VueJs.<br> I used firebase realtime database,cloud firestore and cloud messenger to handle my data and app notifications. i built an offline feature using realm db that helps readers on the app to keep the content offline permanently.",
         "skills":["Native Android","Java","Android Studio", "VueJs"],
         "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
         "images":[
