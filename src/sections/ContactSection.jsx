@@ -20,13 +20,13 @@ export default function ContactSection(props) {
                     <ExternalLinkIcon className="ml-2 w-5 h-5 text-green-400 opacity-70 group-hover:opacity-100"/>
                 </span>
             </a>
-            <a href="tel:+233501232332" className="group">
+            <a href="tel:+4915775590157" className="group">
                 <div className="flex items-center text-gray-400">
                     <FaPhoneAlt className="mr-1"/>
                     PHONE
                 </div>
                 <span className="flex">
-                    +233 50 123 2332
+                    +49 157 75590157
                     <ExternalLinkIcon className="ml-2 w-5 h-5 text-green-400 opacity-70 group-hover:opacity-100"/>
                 </span>
             </a>

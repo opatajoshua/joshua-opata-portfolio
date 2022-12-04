@@ -1,5 +1,31 @@
 [
     {
+        "name":"Multi-matrix tic-tac-toe",
+        "description":"My attempt to implement a multi-matrix tic-tac-toe.",
+        "skills":["React.js","Tailwindcss", "Jest", "testing-library/react"],
+        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
+        "images":[
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183280/portfolio/react-tictactoe/react-tictactoe-1_gdybpk.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183280/portfolio/react-tictactoe/react-tictactoe-1_gdybpk.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183279/portfolio/react-tictactoe/react-tictactoe-2_edrqqt.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-2_edrqqt.png"
+            }
+        ],
+        "links":[
+            {
+                "title":"LINK",
+                "link":"https://multi-matrix-tictactoe.netlify.app/"
+            }
+        ]
+    },
+    {
         "name":"Pick A Fist",
         "description":"A simple fun game i developed with ember.js in less than a day to refresh my ember.js skills since i have been working with other frameworks for a while now. You guess which fist is holding the key, and it scores you vs the computer.",
         "skills":["Ember.js","Tailwindcss"],
