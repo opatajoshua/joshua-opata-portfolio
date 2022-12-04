@@ -53,7 +53,7 @@ export default function ProjectGallery(props) {
                                         <span key={j} className="text-sm px-3 py-1 bg-gray-700 text-green-400 rounded-2xl mt-2 mr-1">{sk}</span>
                                     ):''}
                                 </p>
-                                <p className="text-lg text-gray-400 mt-2 md:mt-4">
+                                <p className="text-md text-gray-400 mt-2 md:mt-4">
                                     <div dangerouslySetInnerHTML={{__html:props.project? props.project.description:''}} />
                                 </p>
                                 <div className="mt-5 flex">
