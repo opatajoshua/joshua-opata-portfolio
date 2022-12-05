@@ -1,8 +1,8 @@
 [
     {
         "name":"Multi-matrix tic-tac-toe",
-        "description":"My attempt to implement a multi-matrix tic-tac-toe.",
-        "skills":["React.js","Tailwindcss", "Jest", "testing-library/react"],
+        "description":"My first TicTacToe code and it's 🔥. Let me know how many times you beat my 'computer' second player 😁 . <br/>I used the best approach I can think of without knowing other code approaches. So feel free to share your ideas on it.<br/><br/>Now the story part about why I finally decided to code it.<br/>I was taking a coding challenge (full-stack) and I was given only 3hrs for 2 FE challenges, 1 BE challenge, and 2 other sections of multi-choice questions. Obviously, no room is given for thinking and writing test to build confidence in your code. (I think code challenges like this expect you to have practiced all challenges before). Nondelece I came up with this bright approach in mind but time didn't allow me to implement my algorithm completely.<br/>After the challenge, I just decided to use my logic for a more customizable TicTacToe game. <br/>And here we have it.<br/>Code available on GitHub. <br/>Don't forget to share and star it.",
+        "skills":["React.js", "Typescript","Tailwindcss", "Jest", "testing-library/react"],
         "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
         "images":[
             {

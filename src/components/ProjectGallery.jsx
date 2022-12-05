@@ -54,7 +54,7 @@ export default function ProjectGallery(props) {
                                     ):''}
                                 </p>
                                 <p className="text-md text-gray-400 mt-2 md:mt-4">
-                                    <div dangerouslySetInnerHTML={{__html:props.project? props.project.description:''}} />
+                                    <span dangerouslySetInnerHTML={{__html:props.project? props.project.description:''}} />
                                 </p>
                                 <div className="mt-5 flex">
                                     {props.project && props.project.links? 
