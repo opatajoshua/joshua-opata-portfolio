@@ -26,7 +26,7 @@ export default function Header() {
                             {/* <div className="flex-1">ddd</div> */}
                         </div>
                         <div className="flex flex-row items-center mt-8">
-                            <p className="text-4xl mr-3">6+</p>
+                            <p className="text-4xl mr-3">7+</p>
                             <div className="text-xs text-gray-400">
                                 <p>YEARS</p>
                                 <p>EXPERIENCE</p>
