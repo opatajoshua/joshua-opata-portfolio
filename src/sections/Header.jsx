@@ -10,7 +10,7 @@ export default function Header() {
                     <div className="flex flex-col">
                         <div><p className="inline rounded bg-green-400 text-black px-2 py-1 max-w-full">Software Developer</p></div>
                         <p className="text-4xl font-bold mt-5">I am Joshua Opata</p>
-                        <p className="mt-4">I am a passionate software developer with 6+ years of experience</p>
+                        <p className="mt-4">I am a passionate software developer with 8+ years of experience</p>
                         <span className="group">
                             <div className="flex items-center text-gray-400 mt-2">
                             <FaMapMarkerAlt className="mr-1"/> Frankfurt - Germany | Remote
@@ -26,7 +26,7 @@ export default function Header() {
                             {/* <div className="flex-1">ddd</div> */}
                         </div>
                         <div className="flex flex-row items-center mt-8">
-                            <p className="text-4xl mr-3">7+</p>
+                            <p className="text-4xl mr-3">8+</p>
                             <div className="text-xs text-gray-400">
                                 <p>YEARS</p>
                                 <p>EXPERIENCE</p>
