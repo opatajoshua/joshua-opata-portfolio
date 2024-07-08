@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import Scrollspy from 'react-scrollspy'
+import ScrollSpy from 'react-scrollspy-navigation'
 
 const navigation = [
   { name: 'Home', href: 'home' },
@@ -25,21 +25,22 @@ export default function NavBar() {
                     <div className="flex-shrink-0 text-xl">
                       <b>Joshua</b> <span className="font-light">Opata</span>
                     </div>
-      
                   </div>
                   <div className="hidden md:block">
-                      <Scrollspy items={navigation.map(n=>n.href)} currentClassName="text-green-400 border-b-2 border-green-400" className="ml-10 flex items-baseline space-x-4">
+                    <ScrollSpy activeClass="text-green-400 border-b-2 border-green-400" >
+                      <div className="ml-10 flex items-baseline space-x-4">
                         {navigation.map((item) => (
                           <a
                             key={item.name}
-                            href={'#'+item.href}
+                            href={'#' + item.href}
                             className='text-gray-300 hover:text-green-400 px-1 py-2 text-sm font-medium'
                           >
                             {item.name}
                           </a>
                         ))}
-                      </Scrollspy>
-                    </div>
+                      </div>
+                    </ScrollSpy>
+                  </div>
                   <div className="-mr-2 flex md:hidden">
                     {/* Mobile menu button */}
                     <Disclosure.Button className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -54,19 +55,20 @@ export default function NavBar() {
                 </div>
               </div>
               <Disclosure.Panel className="md:hidden">
-              <Scrollspy items={navigation.map(n=>n.href)} currentClassName="text-green-400 border-b-2 border-green-400" className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                  {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={'#'+item.href}
-                      className='block px-3 py-2 rounded-md text-base font-medium'
-                      aria-current={item.current ? 'page' : undefined}
-                    >
-                      {item.name}
-                    </a>
-                  ))}
-                </Scrollspy>
-       
+                <ScrollSpy activeClass="text-green-400 border-b-2 border-green-400">
+                  <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    {navigation.map((item) => (
+                      <a
+                        key={item.name}
+                        href={'#' + item.href}
+                        className='block px-3 py-2 rounded-md text-base font-medium'
+                        aria-current={item.current ? 'page' : undefined}
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+                </ScrollSpy>
               </Disclosure.Panel>
             </>
           )}

@@ -13,7 +13,7 @@ export default function Section(props) {
 
 Section.propTypes = {
     id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    heading: PropTypes.string.isRequired,
+    title: PropTypes.string,
+    heading: PropTypes.string,
     description: PropTypes.string,
 };
