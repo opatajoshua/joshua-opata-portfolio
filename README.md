@@ -1,71 +1,37 @@
-# Getting Started with Create React App
+# joshuaopata.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio site. Built with Create React App + Tailwind CSS, hosted on Firebase.
 
-## Available Scripts
+## Local development
 
-In the project directory, you can run:
+```bash
+npm install
+npm start          # http://localhost:3000
+```
 
-### `npm start`
+## Content lives in JSON
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Editing the site usually means editing data, not JSX:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [src/data/projects.json](src/data/projects.json) — project cards (Eban, Pentecost, etc.)
+- [src/data/skills.json](src/data/skills.json) — skill tiles (categorized: highlight / frontend / backend)
+- [src/data/services.json](src/data/services.json) — services section
+- [src/data/blogs.json](src/data/blogs.json) — blogs section
+- [src/sections/Header.jsx](src/sections/Header.jsx) — bio text, years of experience, location
 
-### `npm test`
+When adding a skill icon, follow the conventions in [public/img/skills/README.md](public/img/skills/README.md) — `xmlns` is required, dark fills won't be visible on the dark navy background.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
-### `firebase deploy`
+**Automatic** — pushing to `main` triggers [.github/workflows/firebase-hosting-merge.yml](.github/workflows/firebase-hosting-merge.yml), which runs `npm ci && npm run build` and deploys to Firebase Hosting (project `joshuaopata-portfolio`).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**PR previews** — opening a PR triggers [.github/workflows/firebase-hosting-pull-request.yml](.github/workflows/firebase-hosting-pull-request.yml), which posts a unique preview URL as a comment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Manual fallback**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+firebase deploy
+```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The GitHub Action depends on the `FIREBASE_SERVICE_ACCOUNT_JOSHUAOPATA_PORTFOLIO` repo secret.
