@@ -1,7 +1,7 @@
 [
     {
         "name": "Eban Register (HR Platform)",
-        "description": "A unified HR &amp; attendance platform used by businesses across Ghana &mdash; spanning hospitality, healthcare, education, and manufacturing. I built it end-to-end as sole developer: Time &amp; Attendance (QR / GPS / NFC clock-ins), Payroll, Leave Management, Performance Appraisals, Onboarding, Document Storage, and Multi-Branch Management. Current stack: Vue 3 admin, NestJS backend with BullMQ jobs and Redis caching, PostgreSQL, AWS S3 + GCP storage, real-time updates over WebSockets, and push via Firebase + Expo &mdash; all in a pnpm + Turborepo monorepo. Self-hosted observability on a separate Hetzner VPS using SigNoz + OpenTelemetry, with Slack and Pumble alerting. Originally built on FeathersJS + Vue, since evolved into the current platform.",
+        "description": "A unified HR &amp; attendance platform used by businesses across Ghana &mdash; spanning hospitality, healthcare, education, and manufacturing. I built it end-to-end as sole developer: Time &amp; Attendance (QR / GPS / NFC clock-ins), Payroll, Leave Management, Performance Appraisals, Onboarding, Document Storage, and Multi-Branch Management. Current stack: Vue 3 admin, NestJS backend with BullMQ jobs and Redis caching, PostgreSQL, AWS S3 + GCP storage, real-time updates over WebSockets, and push via Firebase + Expo &mdash; all in a pnpm + Turborepo monorepo. Self-hosted observability stack with SigNoz + OpenTelemetry and incident alerting.",
         "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png",
         "skills": [
             "Vue 3",
