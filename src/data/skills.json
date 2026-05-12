@@ -1,142 +1,259 @@
 [
     {
-        "name":"VUE.JS",
-        "image":"vuejs.png",
-        "categories": ["highlight", "frontend"]
+        "name": "TYPESCRIPT",
+        "image": "typescript.svg",
+        "categories": [
+            "highlight",
+            "frontend",
+            "backend"
+        ]
     },
     {
-        "name":"EMBER.JS",
-        "image":"emberjs.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "NESTJS",
+        "image": "nestjs.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"REACT.JS",
-        "image":"react.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "REACT.JS",
+        "image": "react.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"FLUTTER",
-        "image":"flutter.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "NODEJS",
+        "image": "nodejs.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"LARAVEL",
-        "image":"laravel.svg",
-        "categories": ["highlight", "frontend", "backend"]
+        "name": "REACT NATIVE",
+        "image": "react-native.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"IONICJS",
-        "image":"ionic.svg",
-        "categories": ["frontend"]
+        "name": "POSTGRESQL",
+        "image": "postgresql.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"JAVA",
-        "image":"java.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "AWS",
+        "image": "amazon_aws-icon.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"TYPESCRIPT",
-        "image":"typescript.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "DOCKER",
+        "image": "docker.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"PHP",
-        "image":"php.svg",
-        "categories": ["highlight", "backend"]
+        "name": "VUE.JS",
+        "image": "vuejs.png",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"SCSS",
-        "image":"sass.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "FLUTTER",
+        "image": "flutter.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"BOOTSTRAP",
-        "image":"bootstrap.svg",
-        "categories": ["frontend"]
+        "name": "REDIS",
+        "image": "redis.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"TAILWINDCSS",
-        "image":"tailwindcss.svg",
-        "categories": ["highlight", "frontend"]
+        "name": "TAILWINDCSS",
+        "image": "tailwindcss.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"NODEJS",
-        "image":"nodejs.svg",
-        "categories": ["highlight", "backend"]
+        "name": "EXPO",
+        "image": "expo.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"MYSQL",
-        "image":"mysql.svg",
-        "categories": ["backend"]
+        "name": "GCP",
+        "image": "google-cloud.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"POSTGRESQL",
-        "image":"postgresql.svg",
-        "categories": ["highlight", "backend"]
+        "name": "FIREBASE",
+        "image": "firebase.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"MONGODB",
-        "image":"mongodb.svg",
-        "categories": ["backend"]
+        "name": "OPENTELEMETRY",
+        "image": "opentelemetry.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"REDIS",
-        "image":"redis.svg",
-        "categories": ["backend"]
+        "name": "JAVA",
+        "image": "java.svg",
+        "categories": [
+            "highlight",
+            "frontend",
+            "backend"
+        ]
     },
     {
-        "name":"GRAPHQL",
-        "image":"graphql.svg",
-        "categories": ["frontend"]
+        "name": "LARAVEL",
+        "image": "laravel.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"C# .NET",
-        "image":"dotnet.svg",
-        "categories": ["desktop"]
+        "name": "PHP",
+        "image": "php.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
     },
     {
-        "name":"FIREBASE",
-        "image":"firebase.svg",
-        "categories": ["backend"]
+        "name": "SCSS",
+        "image": "sass.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"FEATHERS.JS",
-        "image":"feathers.png",
-        "categories": ["backend"]
+        "name": "EMBER.JS",
+        "image": "emberjs.svg",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
     },
     {
-        "name":"SKETCH",
-        "image":"sketchapp.svg",
+        "name": "MYSQL",
+        "image": "mysql.svg",
+        "categories": [
+            "backend"
+        ]
+    },
+    {
+        "name": "GRAPHQL",
+        "image": "graphql.svg",
+        "categories": [
+            "frontend"
+        ]
+    },
+    {
+        "name": "MONGODB",
+        "image": "mongodb.svg",
+        "categories": [
+            "backend"
+        ]
+    },
+    {
+        "name": "BOOTSTRAP",
+        "image": "bootstrap.svg",
+        "categories": [
+            "frontend"
+        ]
+    },
+    {
+        "name": "NGINX",
+        "image": "nginx.svg",
+        "categories": [
+            "backend"
+        ]
+    },
+    {
+        "name": "ELECTRON JS",
+        "image": "electronjs-icon.svg",
+        "categories": [
+            "frontend"
+        ]
+    },
+    {
+        "name": "REALM DB",
+        "image": "mongodb-realm.svg",
+        "categories": [
+            "backend"
+        ]
+    },
+    {
+        "name": "IONICJS",
+        "image": "ionic.svg",
+        "categories": [
+            "frontend"
+        ]
+    },
+    {
+        "name": "FEATHERS.JS",
+        "image": "feathers.png",
+        "categories": [
+            "backend"
+        ]
+    },
+    {
+        "name": "APACHE",
+        "image": "apache.svg",
+        "categories": [
+            "backend"
+        ]
+    },
+    {
+        "name": "C# .NET",
+        "image": "dotnet.svg",
+        "categories": [
+            "desktop"
+        ]
+    },
+    {
+        "name": "SKETCH",
+        "image": "sketchapp.svg",
         "categories": []
     },
     {
-        "name":"PHOTOSHOP",
-        "image":"photoshop.svg",
+        "name": "PHOTOSHOP",
+        "image": "photoshop.svg",
         "categories": []
-    },
-    {
-        "name":"NGINX",
-        "image":"nginx.svg",
-        "categories": ["backend"]
-    },
-    {
-        "name":"APACHE",
-        "image":"apache.svg",
-        "categories": ["backend"]
-    },
-    {
-        "name":"REALM DB",
-        "image":"mongodb-realm.svg",
-        "categories": ["backend"]
-    },
-    {
-        "name":"ELECTRON JS",
-        "image":"electronjs-icon.svg",
-        "categories": ["frontend"]
-    },
-    {
-        "name":"AWS",
-        "image":"amazon_aws-icon.svg",
-        "categories": ["backend"]
     }
 ]

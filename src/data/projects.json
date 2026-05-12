@@ -1,137 +1,22 @@
 [
     {
-        "name":"Multi-matrix tic-tac-toe",
-        "description":"My first TicTacToe code and it's 🔥. Let me know how many times you beat my 'computer' second player 😁 . <br/>I used the best approach I can think of without knowing other code approaches. So feel free to share your ideas on it.<br/><br/>Now the story part about why I finally decided to code it.<br/>I was taking a coding challenge (full-stack) and I was given only 3hrs for 2 FE challenges, 1 BE challenge, and 2 other sections of multi-choice questions. Obviously, no room is given for thinking and writing test to build confidence in your code. (I think code challenges like this expect you to have practiced all challenges before). Nondelece I came up with this bright approach in mind but time didn't allow me to implement my algorithm completely.<br/>After the challenge, I just decided to use my logic for a more customizable TicTacToe game. <br/>And here we have it.<br/>Code available on GitHub. <br/>Don't forget to share and star it.",
-        "skills":["React.js", "Typescript","Tailwindcss", "Jest", "testing-library/react"],
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
-        "images":[
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183280/portfolio/react-tictactoe/react-tictactoe-1_gdybpk.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183280/portfolio/react-tictactoe/react-tictactoe-1_gdybpk.png"
-            },
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png"
-            },
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183279/portfolio/react-tictactoe/react-tictactoe-2_edrqqt.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-2_edrqqt.png"
-            }
+        "name": "Eban Register (HR Platform)",
+        "description": "A unified HR &amp; attendance platform used by businesses across Ghana &mdash; spanning hospitality, healthcare, education, and manufacturing. I built it end-to-end as sole developer: Time &amp; Attendance (QR / GPS / NFC clock-ins), Payroll, Leave Management, Performance Appraisals, Onboarding, Document Storage, and Multi-Branch Management. Current stack: Vue 3 admin, NestJS backend with BullMQ jobs and Redis caching, PostgreSQL, AWS S3 + GCP storage, real-time updates over WebSockets, and push via Firebase + Expo &mdash; all in a pnpm + Turborepo monorepo. Self-hosted observability on a separate Hetzner VPS using SigNoz + OpenTelemetry, with Slack and Pumble alerting. Originally built on FeathersJS + Vue, since evolved into the current platform.",
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png",
+        "skills": [
+            "Vue 3",
+            "NestJS",
+            "Typescript",
+            "PostgreSQL",
+            "Redis",
+            "BullMQ",
+            "AWS",
+            "GCP",
+            "Docker",
+            "OpenTelemetry",
+            "Turborepo"
         ],
-        "links":[
-            {
-                "title":"DEMO",
-                "link":"https://multi-matrix-tictactoe.netlify.app/"
-            },
-            {
-                "title":"GITHUB",
-                "link":"https://github.com/opatajoshua/react-tic-tac-toe"
-            }
-        ]
-    },
-    {
-        "name":"Pick A Fist",
-        "description":"A simple fun game i developed with ember.js in less than a day to refresh my ember.js skills since i have been working with other frameworks for a while now. You guess which fist is holding the key, and it scores you vs the computer.",
-        "skills":["Ember.js","Tailwindcss"],
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png",
-        "images":[
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png"
-            },
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.31.32_PM_2_ph7t0v.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.31.32_PM_2_ph7t0v.png"
-            }
-        ],
-        "links":[
-            {
-                "title":"LINK",
-                "link":"https://hand-pick-game.netlify.app/"
-            },
-            {
-                "title":"GITHUB",
-                "link":"https://github.com/opatajoshua/hand-pick-game"
-            }
-        ]
-    },
-    {
-        "name":"My Portfolio",
-        "description":"You are already here 😊. I designed the mockup of this site with sketch and the rest is fun coding with react and tailwindcss",
-        "skills":["Sketch","ReactJS","Tailwindcss"],
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png",
-        "images":[
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png"
-            }
-        ],
-        "links":[
-            {
-                "title":"YOU ARE ALREADY HERE",
-                "link":null,
-                "disabled": true
-            }
-        ]
-    },
-    {
-        "name":"Pentecost Guide",
-        "description":"Currently <b>10k+</b> downloads on Google Play Store, Pentecost guide has been helping in reading through the Pentecost home cells and bible study for each year since 2017.<br/> I designed and built the mobile app and an admin web app to manage it. I used android studio with java to develop the mobile app. I initially built an admin app to it in ReactJs and later rebuilt it with VueJs.<br> I used firebase realtime database,cloud firestore and cloud messenger to handle my data and app notifications. i built an offline feature using realm db that helps readers on the app to keep the content offline permanently.",
-        "skills":["Native Android","Java","Android Studio", "VueJs"],
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
-        "images":[
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png"
-            },
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634251886/portfolio/pentecost-guide/pentecost-guide-screen2_cw5cml.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634251886/portfolio/pentecost-guide/pentecost-guide-screen2_cw5cml.png"
-            }
-        ],
-        "links":[
-            {
-                "title":"PLAYS STORE",
-                "link":"https://play.google.com/store/apps/details?id=com.jolsoft.pentecostguid"
-            }
-        ]
-    },
-    {
-        "name":"Eban Register (Mobile)",
-        "description":"Currently <b>1.5k+</b> on Play Store and <b>6.9k</b> impressions on Apple App Store, this app is used by employees and members of enrolled organizations on Eban Register to: <br>(1) scan QR-Codes to take attendance. <br>(2) manage their profile. <br>(3) register attendance for meetings within the radius of their gps location. (4) Access their organisation's information and meetings. <br>(5) manage their attendance history.",
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png",
-        "skills":["Flutter", "Dart"],
-        "images":[
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png"
-            },
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen2_yo1ado.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen2_yo1ado.png"
-            },
-            {
-                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen3_bvy8ln.png",
-                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen3_bvy8ln.png"
-            }
-        ],
-        "links":[
-            {
-                "title":"APP STORE",
-                "link":"https://apps.apple.com/gh/app/eban-register/id1533556318?itsct=apps_box&itscg=30200"
-            },
-            {
-                "title":"PLAY STORE",
-                "link":"https://play.google.com/store/apps/details?id=com.eban.ebanapp"
-            }
-        ]
-    },
-    {
-        "name":"Eban Register (Web Admin)",
-        "description":"An Electronic attendance system with employee and membership management modules. 70 organizations has enrolled on the platform since it's deployment in december 2020. The system allows employees or members of organizations to take attendance with their phone by: <br> - Scanning a QR-Code<br> - Using their GPS<br> - Scanning an NFC tag",
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png",
-        "skills":["VueJs", "Bootstrap","FeathersJs", "Typescript", "more.."],
-        "images":[
+        "images": [
             {
                 "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png",
                 "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634246757/portfolio/eban-admin/eban-admin-screen-1_zmjbnx.png"
@@ -145,19 +30,187 @@
                 "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634248046/portfolio/eban-admin/eban-admin-screen-3_licoyr.png"
             }
         ],
-        "links":[
+        "links": [
             {
-                "title":"LINK",
-                "link":"https://ebanregister.com/"
+                "title": "LINK",
+                "link": "https://ebanregister.com/"
             }
         ]
     },
     {
-        "name":"E-Health",
-        "description":"EHMIS, a hospital management system. I was the lead developer for both backend and frontend development. I developed the core backend modules for authentication (with passport), billing, and other hospital operations. The backend is developed in php (Laravel). I developed the frontend custom controls (in EmberJs), authentication, billing and other operations that communicate with the backend using rest.",
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png",
-        "skills":["EmberJs", "PHP","Laravel", "Mysql", "HTML, JS, CSS"],
-        "images":[
+        "name": "Eban Register (Self-Service)",
+        "description": "The Eban Register employee self-service portal on <b>iOS, Android, and web</b> &mdash; a single Expo (React Native) codebase ships to all three platforms. Employees use it to: <br>(1) clock attendance via QR-Code, GPS, or NFC. <br>(2) request leave and view balances. <br>(3) access payslips and salary history. <br>(4) manage their profile and organization meetings. <br>(5) review their attendance history. <br>Built with expo-router, TanStack Query, React Hook Form, and Gluestack UI; OTA updates via EAS. Originally shipped as a separate Flutter mobile app, since consolidated into one cross-platform client.",
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png",
+        "skills": [
+            "React Native",
+            "Expo",
+            "Typescript",
+            "TanStack Query",
+            "EAS"
+        ],
+        "images": [
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen1_g4k1ew.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen2_yo1ado.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen2_yo1ado.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252250/portfolio/eban-mobile/eban-mobile-screen3_bvy8ln.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252250/portfolio/eban-mobile/eban-mobile-screen3_bvy8ln.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "APP STORE",
+                "link": "https://apps.apple.com/gh/app/eban-register/id1533556318?itsct=apps_box&itscg=30200"
+            },
+            {
+                "title": "PLAY STORE",
+                "link": "https://play.google.com/store/apps/details?id=com.eban.ebanapp"
+            }
+        ]
+    },
+    {
+        "name": "Pentecost Guide",
+        "description": "With <b>20k+</b> downloads across the Play Store and App Store, Pentecost Guide has been helping members read through the home cells and Bible study guide each year since 2017. I designed and built the mobile app and a companion web admin to manage content. Current stack: Flutter (Dart) for the mobile app with Hive for permanent offline reading; Vue 3 + Vuetify + TypeScript admin on Vite; and a Firebase Cloud Functions (TypeScript) backend. Firebase Realtime Database, Firestore, and Cloud Messaging handle data and notifications. Originally built natively in Java/Android with a React admin, since rewritten end-to-end.",
+        "skills": [
+            "Flutter",
+            "Dart",
+            "Vue 3",
+            "Vuetify",
+            "Typescript",
+            "Firebase",
+            "Cloud Functions"
+        ],
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
+        "images": [
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634251885/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634251886/portfolio/pentecost-guide/pentecost-guide-screen2_cw5cml.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634251886/portfolio/pentecost-guide/pentecost-guide-screen2_cw5cml.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1778602738/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1778602738/portfolio/pentecost-guide/pentecost-guide-screen1_zfdf89.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "APP STORE",
+                "link": "https://apps.apple.com/gh/app/pentecost-guide/id6443404093?itsct=apps_box&itscg=30200"
+            },
+            {
+                "title": "PLAY STORE",
+                "link": "https://play.google.com/store/apps/details?id=com.jolsoft.pentecostguid"
+            }
+        ]
+    },
+    {
+        "name": "Multi-matrix tic-tac-toe",
+        "description": "My first TicTacToe code and it's 🔥. Let me know how many times you beat my 'computer' second player 😁 . <br/>I used the best approach I can think of without knowing other code approaches. So feel free to share your ideas on it.<br/><br/>Now the story part about why I finally decided to code it.<br/>I was taking a coding challenge (full-stack) and I was given only 3hrs for 2 FE challenges, 1 BE challenge, and 2 other sections of multi-choice questions. Obviously, no room is given for thinking and writing test to build confidence in your code. (I think code challenges like this expect you to have practiced all challenges before). Nondelece I came up with this bright approach in mind but time didn't allow me to implement my algorithm completely.<br/>After the challenge, I just decided to use my logic for a more customizable TicTacToe game. <br/>And here we have it.<br/>Code available on GitHub. <br/>Don't forget to share and star it.",
+        "skills": [
+            "React.js",
+            "Typescript",
+            "Tailwindcss",
+            "Jest",
+            "testing-library/react"
+        ],
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
+        "images": [
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183280/portfolio/react-tictactoe/react-tictactoe-1_gdybpk.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183280/portfolio/react-tictactoe/react-tictactoe-1_gdybpk.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-3_jghnde.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1670183279/portfolio/react-tictactoe/react-tictactoe-2_edrqqt.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1670183279/portfolio/react-tictactoe/react-tictactoe-2_edrqqt.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "DEMO",
+                "link": "https://multi-matrix-tictactoe.netlify.app/"
+            },
+            {
+                "title": "GITHUB",
+                "link": "https://github.com/opatajoshua/react-tic-tac-toe"
+            }
+        ]
+    },
+    {
+        "name": "Pick A Fist",
+        "description": "A simple fun game i developed with ember.js in less than a day to refresh my ember.js skills since i have been working with other frameworks for a while now. You guess which fist is holding the key, and it scores you vs the computer.",
+        "skills": [
+            "Ember.js",
+            "Tailwindcss"
+        ],
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png",
+        "images": [
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.27.25_PM_n8s2hq.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.31.32_PM_2_ph7t0v.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1636317286/portfolio/pick-a-hand/Screenshot_2021-11-07_at_8.31.32_PM_2_ph7t0v.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "LINK",
+                "link": "https://hand-pick-game.netlify.app/"
+            },
+            {
+                "title": "GITHUB",
+                "link": "https://github.com/opatajoshua/hand-pick-game"
+            }
+        ]
+    },
+    {
+        "name": "My Portfolio",
+        "description": "You are already here 😊. I designed the mockup of this site with sketch and the rest is fun coding with react and tailwindcss",
+        "skills": [
+            "Sketch",
+            "ReactJS",
+            "Tailwindcss"
+        ],
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png",
+        "images": [
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634252391/portfolio/my-portfolio/my_portfolio_xlfdqo.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "YOU ARE ALREADY HERE",
+                "link": null,
+                "disabled": true
+            }
+        ]
+    },
+    {
+        "name": "E-Health",
+        "description": "EHMIS, a hospital management system. I was the lead developer for both backend and frontend development. I developed the core backend modules for authentication (with passport), billing, and other hospital operations. The backend is developed in php (Laravel). I developed the frontend custom controls (in EmberJs), authentication, billing and other operations that communicate with the backend using rest.",
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png",
+        "skills": [
+            "EmberJs",
+            "PHP",
+            "Laravel",
+            "Mysql",
+            "HTML, JS, CSS"
+        ],
+        "images": [
             {
                 "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png",
                 "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634249571/portfolio/ehmis/ehmis-screen-1_gtu69t.png"
@@ -171,15 +224,18 @@
                 "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634250548/portfolio/ehmis/ehmis-screen-3_wdwnsj.png"
             }
         ],
-        "links":[
-        ]
+        "links": []
     },
     {
-        "name":"SORMAS",
-        "description":"Besides Germany, SORMAS is now being used in over half a dozen countries for COVID surveillance. I contribute to the development of SORMAS by developing features like barcode reading, and some other requirements. I also built custom controls for the mobile app. i used eclipse or sometimes intellij with javaee and vaadin framework to build the web application feature tasks like new sample dashboard and other features. I also made fixed bugs in the project and create pull requests.",
-        "image":"https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png",
-        "skills":["Java","Android Studio","Vaadin"],
-        "images":[
+        "name": "SORMAS",
+        "description": "Besides Germany, SORMAS is now being used in over half a dozen countries for COVID surveillance. I contribute to the development of SORMAS by developing features like barcode reading, and some other requirements. I also built custom controls for the mobile app. i used eclipse or sometimes intellij with javaee and vaadin framework to build the web application feature tasks like new sample dashboard and other features. I also made fixed bugs in the project and create pull requests.",
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png",
+        "skills": [
+            "Java",
+            "Android Studio",
+            "Vaadin"
+        ],
+        "images": [
             {
                 "original": "https://res.cloudinary.com/jolsoft/image/upload/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png",
                 "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634253710/portfolio/sormas/sormas-screen-1_pgnuvf.png"
@@ -189,16 +245,15 @@
                 "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/v1634253712/portfolio/sormas/sormas-screen-2_pw1qjw.png"
             }
         ],
-        "links":[
+        "links": [
             {
-                "title":"SITE",
-                "link":"https://sormas.org/"
+                "title": "SITE",
+                "link": "https://sormas.org/"
             },
             {
-                "title":"DEMO",
-                "link":"https://demo.sormas.org/sormas-ui/login"
+                "title": "DEMO",
+                "link": "https://demo.sormas.org/sormas-ui/login"
             }
         ]
     }
-    
 ]
