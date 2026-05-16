@@ -21,6 +21,11 @@ Editing the site usually means editing data, not JSX:
 
 When adding a skill icon, follow the conventions in [public/img/skills/README.md](public/img/skills/README.md) — `xmlns` is required, dark fills won't be visible on the dark navy background.
 
+## External tools
+
+- **Project screenshots / device mockups** — [shots.so](https://shots.so) (free): drag in a raw screenshot, pick a browser / phone / tablet frame, export at 2x. Used to keep screenshots in `projects.json` consistent.
+- **Skill icons** — [devicon.dev](https://devicon.dev) and [simpleicons.org](https://simpleicons.org). Details in [public/img/skills/README.md](public/img/skills/README.md).
+
 ## Deployment
 
 **Automatic** — pushing to `main` triggers [.github/workflows/firebase-hosting-merge.yml](.github/workflows/firebase-hosting-merge.yml), which runs `npm ci && npm run build` and deploys to Firebase Hosting (project `joshuaopata-portfolio`).
