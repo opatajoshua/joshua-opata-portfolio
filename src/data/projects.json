@@ -64,12 +64,60 @@
         ],
         "links": [
             {
-                "title": "APP STORE",
+                "title": "iOS",
                 "link": "https://apps.apple.com/gh/app/eban-register/id1533556318?itsct=apps_box&itscg=30200"
             },
             {
-                "title": "PLAY STORE",
+                "title": "ANDROID",
                 "link": "https://play.google.com/store/apps/details?id=com.eban.ebanapp"
+            }
+        ]
+    },
+    {
+        "name": "Sprach AI",
+        "description": "Learn languages through immersive reading on iOS, Android, and web &mdash; shipped from a single Expo (React Native) codebase. AI generates stories tailored to your level, with a built-in dictionary so you can tap any word for instant lookup as you read. Built end-to-end: tRPC + Drizzle ORM + PostgreSQL backend, BullMQ + Redis for background story generation, Better Auth for accounts, Cloudinary for media, and Tamagui for a native-feel UI across all three platforms.",
+        "skills": [
+            "React Native",
+            "Expo",
+            "Tamagui",
+            "Typescript",
+            "tRPC",
+            "Drizzle",
+            "PostgreSQL",
+            "Redis",
+            "BullMQ"
+        ],
+        "image": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_400,g_face/portfolio/sprachai/reading_u9v1uh.png",
+        "images": [
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/portfolio/sprachai/home_ftchqp.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/portfolio/sprachai/home_ftchqp.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/portfolio/sprachai/reading_u9v1uh.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/portfolio/sprachai/reading_u9v1uh.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/portfolio/sprachai/dictionary_eno6gw.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/portfolio/sprachai/dictionary_eno6gw.png"
+            },
+            {
+                "original": "https://res.cloudinary.com/jolsoft/image/upload/portfolio/sprachai/settings_i437id.png",
+                "thumbnail": "https://res.cloudinary.com/jolsoft/image/upload/c_thumb,w_200,g_face/portfolio/sprachai/settings_i437id.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "WEB",
+                "link": "https://sprachai.com/"
+            },
+            {
+                "title": "iOS",
+                "link": "https://apps.apple.com/app/id6748093642"
+            },
+            {
+                "title": "ANDROID",
+                "link": "https://play.google.com/store/apps/details?id=com.sprach.app"
             }
         ]
     },
@@ -102,11 +150,11 @@
         ],
         "links": [
             {
-                "title": "APP STORE",
+                "title": "iOS",
                 "link": "https://apps.apple.com/gh/app/pentecost-guide/id6443404093?itsct=apps_box&itscg=30200"
             },
             {
-                "title": "PLAY STORE",
+                "title": "ANDROID",
                 "link": "https://play.google.com/store/apps/details?id=com.jolsoft.pentecostguid"
             }
         ]

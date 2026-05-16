@@ -9,14 +9,6 @@
         ]
     },
     {
-        "name": "NESTJS",
-        "image": "nestjs.svg",
-        "categories": [
-            "highlight",
-            "backend"
-        ]
-    },
-    {
         "name": "REACT.JS",
         "image": "react.svg",
         "categories": [
@@ -27,6 +19,14 @@
     {
         "name": "NODEJS",
         "image": "nodejs.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
+    },
+    {
+        "name": "NESTJS",
+        "image": "nestjs.svg",
         "categories": [
             "highlight",
             "backend"
@@ -65,8 +65,41 @@
         ]
     },
     {
+        "name": "REDIS",
+        "image": "redis.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
+    },
+    {
+        "name": "TRPC",
+        "image": "trpc.svg",
+        "categories": [
+            "highlight",
+            "backend",
+            "frontend"
+        ]
+    },
+    {
+        "name": "DRIZZLE",
+        "image": "drizzle.svg",
+        "categories": [
+            "highlight",
+            "backend"
+        ]
+    },
+    {
         "name": "VUE.JS",
         "image": "vuejs.png",
+        "categories": [
+            "highlight",
+            "frontend"
+        ]
+    },
+    {
+        "name": "EXPO",
+        "image": "expo.svg",
         "categories": [
             "highlight",
             "frontend"
@@ -81,24 +114,8 @@
         ]
     },
     {
-        "name": "REDIS",
-        "image": "redis.svg",
-        "categories": [
-            "highlight",
-            "backend"
-        ]
-    },
-    {
         "name": "TAILWINDCSS",
         "image": "tailwindcss.svg",
-        "categories": [
-            "highlight",
-            "frontend"
-        ]
-    },
-    {
-        "name": "EXPO",
-        "image": "expo.svg",
         "categories": [
             "highlight",
             "frontend"
